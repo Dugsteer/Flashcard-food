@@ -36,21 +36,21 @@
     
     &__img {
         // width: 17vw;
-        width: 170px;
+        width: 220px;
         // height: 17vw;
-        height: 260px;
-        background-color: $color-green;
-        padding: 20px;
+        height: 220px;
+        background-color: $color-slate;
         align-self: center;
-        justify-self: flex-end;
-        margin-bottom: 2rem;
+        justify-self: center;
+        padding:1rem;
+        margin-bottom: 1rem;
         border-radius: 3px;
         cursor: pointer;
         box-shadow: 3px 3px 3px rgba(0,0,0, 0.4);
 
         @media only screen and (max-width:$bp-large){
-           width: 150px;
-           height: 225px;
+           width: 100px;
+           height: 200px;
         
            }
 

@@ -9,29 +9,32 @@ const blue = window.matchMedia("(max-width: 800px)");
 //switch introduction pic
 function switchpic(){
     switch (mainpic.innerHTML) {
-        case '<img src="img/fashion/fashion1.png" alt="decorative">' :
-            mainpic.innerHTML = '<img src="img/fashion/fashion2.png" alt="decorative">';
+        case '<img src="img/pizza/pizza.png" alt="decorative">' :
+            mainpic.innerHTML = '<img src="img/pizza/pizza1.png" alt="decorative">';
             break;
-        case '<img src="img/fashion/fashion2.png" alt="decorative">' :
-            mainpic.innerHTML = '<img src="img/fashion/fashion3.png" alt="decorative">';
+        case '<img src="img/pizza/pizza1.png" alt="decorative">' :
+            mainpic.innerHTML = '<img src="img/pizza/pizza2.png" alt="decorative">';
+            break;
+        case '<img src="img/pizza/pizza2.png" alt="decorative">' :
+            mainpic.innerHTML = '<img src="img/pizza/pizza3.png" alt="decorative">';
          break;
-        case '<img src="img/fashion/fashion3.png" alt="decorative">' :
-            mainpic.innerHTML = '<img src="img/fashion/fashion4.png" alt="decorative">';
+        case '<img src="img/pizza/pizza3.png" alt="decorative">' :
+            mainpic.innerHTML = '<img src="img/pizza/pizza4.png" alt="decorative">';
          break;
-        case '<img src="img/fashion/fashion4.png" alt="decorative">' :
-            mainpic.innerHTML = '<img src="img/fashion/fashion5.png" alt="decorative">';
+        case '<img src="img/pizza/pizza4.png" alt="decorative">' :
+            mainpic.innerHTML = '<img src="img/pizza/pizza5.png" alt="decorative">';
          break;
     default: 
-    mainpic.innerHTML = '<img src="img/fashion/fashion1.png" alt="decorative">' 
+    mainpic.innerHTML = '<img src="img/pizza/pizza.png" alt="decorative">' 
 }
 }
     setInterval(switchpic, 2000);
 
-//Play applause 
+//Play Burp 
 
-function clapping(){
-    const claps = new Audio("sounds/applause.wav");
-    claps.play();
+function burping(){
+    const burp = new Audio("sounds/burp.wav");
+    burp.play();
 }
 
 // Show and hide about info
@@ -73,29 +76,39 @@ function flipMe(){
 const count = document.getElementById('count');
 
 var imageList = [
-    "belt.jpg",
-    "boots.jpg",
-    "cap.jpg",
-    "dress.jpg",
-    "flip-flops.jpg",
-    "gloves.jpg",
-    "hat.jpg",
-    "hoodie.jpg",
-    "jacket.jpg",
-    "jeans.jpg",
-    "jumper.jpg",
-    "pyjamas.jpg",
-    "raincoat.jpg",
-    "sandals.jpg",
-    "scarf.jpg",
-    "shirt.jpg",
-    "shoes.jpg",
-    "skirt.jpg",
-    "socks.jpg",
-    "trainers.jpg",
-    "trousers.jpg",
-    "tshirt.jpg",
-    "umbrella.jpg"
+    "apple.jpg",
+    "banana.jpg",
+    "beans.jpg",
+    "bread.jpg",
+    "broccoli.jpg",
+    "burger.jpg",
+    "cabbage.jpg",
+    "cake.jpg",
+    "carrot.jpg",
+    "chicken.jpg",
+    "chips.jpg",
+    "cucumber.jpg",
+    "donut.jpg",
+    "egg.jpg",
+    "fish.jpg",
+    "grape.jpg",
+    "honey.jpg",
+    "ice-cream.jpg",
+    "jam.jpg",
+    "kiwi.jpg",
+    "lettuce.jpg",
+    "lobster.jpg",
+    "mushroom.jpg",
+    "nut.jpg",
+    "onion.jpg",
+    "pasta.jpg",
+    "pepper.jpg",
+    "pizza.jpg",
+    "potato.jpg",
+    "prawn.jpg",
+    "radish.jpg",
+    "sausage.jpg",
+    "tomato.jpg"
 ];
 
 
