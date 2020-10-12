@@ -48,7 +48,7 @@ checkForTop();
 //Manage the loader
 function stopLoader() {loader.classList.add("stop");}
 function startLoader(){loader.classList.remove("stop"); setTimeout(stopLoader, 1000);}
-setTimeout(stopLoader, 1000);
+setTimeout(stopLoader, 2000);
 
 //Stop the sidebar appearing on small screens with matchmedia
 function myFunction(x) {if (blue.matches) {sidey.classList.remove("block");}}

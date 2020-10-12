@@ -38,24 +38,53 @@
 }
 .loader-container {
   display: flex;
-  flex-direction: column;
-  width: 600px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   & img {
     
-    height: 60%;
-    width: 60%;
+    height: 20%;
+    width: 20%;
   }
 }
-.ghost {
-  animation: float 3s ease-out infinite;
+
+.apple {
+  animation: vanish 2s ease-in forwards;
 }
-@keyframes float {
+.pears {
+ 
+  animation: vanish 2s ease-in forwards;
+  animation-delay: 1s;
+}
+.plums {
+
+  animation: vanish 2s ease-in forwards;
+  animation-delay: 2s;
+}
+
+
+// .ghost {
+//   animation: float 3s ease-out infinite;
+// }
+// @keyframes float {
+//   50% {
+//     transform: translate(0, 20px);
+//   }
+// }
+
+@keyframes vanish{
+  0% {
+    opacity: 1;
+  }
+
   50% {
     transform: translate(0, 20px);
   }
+  100% {
+    opacity: 0;
+  }
+
 }
 .shadowFrame {
   width: 130px;
