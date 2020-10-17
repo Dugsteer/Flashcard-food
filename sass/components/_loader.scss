@@ -47,6 +47,11 @@
     height: 20%;
     width: 20%;
   }
+
+  @media screen (max-width: $bp-small){
+    width: 360px;
+    height: 360px;
+  }
 }
 
 .apple {

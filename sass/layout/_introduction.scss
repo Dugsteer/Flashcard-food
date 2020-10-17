@@ -21,8 +21,8 @@
     @media only screen and (max-width:$bp-small){
         grid-row: 2/3;
         justify-content: center;
-        width: 400px;
-        height: 400px;
+        width: 360px;
+        height: 550px;
         flex-direction: column;
         
        }
@@ -49,16 +49,12 @@
         box-shadow: 3px 3px 3px rgba(0,0,0, 0.4);
 
         @media only screen and (max-width:$bp-large){
-           width: 200px;
-           height: 200px;
-        
-           }
-
-        @media only screen and (max-width:$bp-small){
            width: 150px;
            height: 150px;
         
            }
+
+
 
         & img {
             width: 100%;
