@@ -48,7 +48,7 @@
     width: 20%;
   }
 
-  @media screen (max-width: $bp-small){
+  @media only screen and (max-width:$bp-small){
     width: 360px;
     height: 360px;
   }
